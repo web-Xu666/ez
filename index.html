@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#box{width: 200px;height: 200px;background: red;}
+			span{font-size: 12px;color: red;display: none;}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li onclick="my()">我是张三</li>
+			<li>我是李四</li>
+			<li>我是王五</li>
+			<li>我是赵六</li>
+		</ul>
+		
+		<script>
+			/*	
+				1.写一个注册界面，包含一个用户名，       密码，   确认密码，小眼睛，  按钮
+								4-8位数字字母的组合	6位纯数字                    点击按钮的时候必须提示用户哪一项没填alert
+				DOM事件
+				this:代表的是函数运行时所在的对象
+				绑定事件
+					1.直接绑定在html标签中
+					2.通过js绑定 对象.事件处理函数=事件名
+				点击事件  click
+				鼠标移入事件 mouseover
+				鼠标移出事件 mouseout
+				鼠标移动事件 mousemove
+				失去焦点事件 blur
+				获得焦点事件 focus
+				on+事件名 事件处理函数
+			*/
+		   //3	4  
+		   //3	4
+		   //3	4
+		  function my(){
+			  console.log(this)
+		  }
+		 
+		</script>
+	</body>
+</html>
